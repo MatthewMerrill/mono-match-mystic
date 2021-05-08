@@ -33,3 +33,9 @@ Each icon is extracted from the original image then blurred by rotating it in a 
 Then, the blurred icons are compared against each other in N^2, brute force glory.
 The two blurred icons with the lowest Mean-Squared Error are very likely the matching icons.
 For my cards, this worked perfectly!
+
+### How does the computer know where the icons are inside the image?
+
+A combination of the locations being shown in Matt Parker's "making of" video, a keyboard, and determination.
+
+[![Matt Parker's Making Of Mono-Match Video](https://img.youtube.com/vi/_l6h8v6R7yo/0.jpg)](https://www.youtube.com/watch?v=_l6h8v6R7yo)
